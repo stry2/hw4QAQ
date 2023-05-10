@@ -4,13 +4,17 @@
 <meta charset="utf-8">
 <title>尼采的簡介</title>
 <link href="sytle.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+</style>
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="js/wow.min.js"></script>
 </head>
 
 <body>
 <div class="background">
 <div class="container">
 <header>
-  <h1>尼采的簡介</h1>
+  <h1 class="wow bounceInDown" data-wow-delay="0.5s">尼采的簡介</h1>
   <nav>
     <p><a href="#A">簡介</a>  <a href="#C">照片</a> <a href="#B">作品</a> <a href="#D">影響</a> </p>
   </nav>
@@ -19,7 +23,7 @@
 <main>
 <article>
   <h2 id="A">簡介</h2>
-  <p>弗德里希·威廉·尼采，1844年10月15日－1900年8月25日，是出身德國的古典語言學家和哲學家。<br>
+  <p class="wow fadeIn" data-wow-delay="0.5s">弗德里希·威廉·尼采，1844年10月15日－1900年8月25日，是出身德國的古典語言學家和哲學家。<br>
     他最初是普魯士公民，1869年移居瑞士的巴塞爾後，他應自己的要求成為無國籍人。<br>
     他也以創作詩歌和音樂作品為副業。<br>
 	下圖為尼采出生地:</p>
@@ -29,7 +33,8 @@
 
 <article>
   <h2 id="C">照片</h2>
-	<p><img src="Nietzsche187a.jpg" width="450" height="608" alt=""/></p>
+	<div class=".change">
+	<p> <img src="Nietzsche187a.jpg" width="450" height="608" alt=""/></p></div>
   </article>
 <article>
   <h2 id="B">作品</h2>
@@ -50,7 +55,11 @@
 	<footer>
 <p>版權所有 © 資料出自維基百科</p>
 </footer>
-	</div>
+	<script>
+new WOW().init();
+ </script>
+  </div>
 	</div>
 </body>
 </html>
+
